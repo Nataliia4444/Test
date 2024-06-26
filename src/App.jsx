@@ -1,8 +1,8 @@
 //* STYLES CSS
 import "./App.css";
 import Header from "./components/Header/Header";
-// import Benefit from "./components/Benefit/Benefit";
-// import Form from "./components/Form/Form";
+import Benefit from "./components/Benefit/Benefit";
+import Form from "./components/Form/Form";
 import Hero from "./components/Hero/Hero";
 //
 function App() {
@@ -15,16 +15,24 @@ function App() {
       <div className="technologyJs"></div>
       <div className="technologyText"></div>
       <div className="technologyVs"></div>
-      {/* <div className="overlay"> */}
+
       <div className="container">
         <div className="mobileOverlay"></div>
         <Header />
         {/* <Form /> */}
-        <Hero />
+        <div className="heroContainer">
+          <Hero />
+          <Form />
+        </div>
+        <div className="benefitSection">
+          <Benefit />
+        </div>
+
         {/* <Benefit /> */}
       </div>
-      {/* </div> */}
+      <div className="overlay"></div>
     </div>
+    // </div>
   );
 }
 

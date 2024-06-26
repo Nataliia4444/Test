@@ -1,6 +1,7 @@
-import css from "./Hero.module.css";
-import Form from "../Form/Form";
 import Benefit from "../Benefit/Benefit";
+import css from "./Hero.module.css";
+// import Form from "../Form/Form";
+// import Benefit from "../Benefit/Benefit";
 export default function Hero() {
   return (
     <>
@@ -55,9 +56,10 @@ export default function Hero() {
             году и как начать карьеру в востребованной профессии
           </p>
         </div>
+        <div className={css.benefitSection}>
+          <Benefit />
+        </div>
       </div>
-      <Form />
-      <Benefit />
     </>
   );
 }

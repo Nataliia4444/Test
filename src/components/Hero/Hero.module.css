@@ -5,6 +5,9 @@
   flex-direction: column;
   align-items: center;
 }
+.hidden {
+  display: none;
+}
 .heroTheme {
   width: 89px;
   height: 23.93px;
@@ -75,14 +78,17 @@
   text-align: center;
   max-width: 328px;
 }
+.benefitSection {
+  display: none;
+}
 /** DESKTOP STYLES */
 
 @media screen and (min-width: 1040px) {
   .heroSection {
-    padding-top: 92px;
+    padding-top: 102px;
     padding-bottom: 27px;
-    padding-right: 56px;
-    padding-left: 56px;
+    /* padding-right: 56px;
+    padding-left: 56px; */
     align-items: start;
   }
 
@@ -156,6 +162,9 @@
     line-height: 26.64px;
     text-align: left;
 
-    max-width: 419px;
+    max-width: 427px;
+  }
+  .benefitSection {
+    display: block;
   }
 }

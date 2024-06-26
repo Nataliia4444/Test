@@ -12,6 +12,7 @@ export default function Benefit() {
             width={37.81}
             height={37.81}
             alt="Бонус за регистрацию"
+            loading="lazy"
           />
           <img
             className={css.presentImageMob}
@@ -20,6 +21,7 @@ export default function Benefit() {
             width={45.81}
             height={45.81}
             alt="Бонус за регистрацию"
+            loading="lazy"
           />
           <div className={css.benefitsContainer}>
             <h3 className={css.benefitsTitle}>Бонус за регистрацию</h3>
@@ -37,6 +39,7 @@ export default function Benefit() {
             width={51}
             height={49.27}
             alt="Кирилл КАСАТОНОВ"
+            loading="lazy"
           />
           <div className={css.benefitsContainer}>
             <h3 className={css.teacherName}>

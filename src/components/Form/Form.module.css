@@ -121,6 +121,7 @@
     width: 366px;
     height: 474px;
     border-radius: 10px;
+    box-shadow: none;
   }
   .fromTheme {
     line-height: 26px;
@@ -167,5 +168,10 @@
     font-weight: 400;
     color: #d7d7d7;
     font-family: "Gilroy-Regular", sans-serif;
+  }
+  .formSection {
+    display: flex;
+    justify-content: center;
+    padding-top: 92px;
   }
 }

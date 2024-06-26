@@ -21,8 +21,9 @@ body {
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
-  padding-right: 15px;
-  padding-left: 15px;
+
+  /* padding-right: 15px;
+  padding-left: 15px; */
 }
 
 /* TABLET STYLES */
@@ -33,12 +34,12 @@ body {
 }
 
 /* DESKTOP STYLES */
-@media only screen and (min-width: 1158px) {
+
+@media screen and (min-width: 1152px) {
   .container {
-    max-width: 1158px;
+    max-width: 1040px;
   }
 }
-
 /** OVERLAY FRONT-END DEVELOPER */
 .overlay {
   background-image: none;
@@ -65,10 +66,18 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     /* max-width: 1500px; */
-    width: 100%;
-    height: 100%; /* Растянуть по высоте родительского элемента */
-    position: relative; /* Добавлено для правильного позиционирования дочерних элементов */
-    overflow: hidden;
+    width: 1440px;
+    height: 158.73px;
+
+    /* height: 100px; Растянуть по высоте родительского элемента */
+    /* position: absolute; Добавлено для правильного позиционирования дочерних элементов */
+    /* overflow: hidden; */
+    /* bottom: 0; */
+
+    /* top: 707px; */
+    /* gap: 0px;
+    border: 1.6px 0px 0px 0px;
+    opacity: 0px; */
   }
 
   @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
@@ -80,99 +89,6 @@ body {
   }
 }
 
-/* * BLUR FOR BACKGROUND
-.blurRight {
-  width: 790.65px;
-  height: 793.23px;
-  position: absolute;
-  top: -316px;
-  left: 1068.67px;
-  opacity: 0.8;
-  background-color: #332f65;
-  filter: blur(50px);
-  border-radius: 50%;
-  display: none;
-}
-
-.blurLeft {
-  width: 399.01px;
-  height: 400.31px;
-  position: absolute;
-  top: -70px;
-  left: -31.33px;
-  opacity: 0.5;
-  background-color: #332f65;
-  filter: blur(50px);
-  border-radius: 50%;
-  display: none;
-} */
-
-/** TECHNOLOGYS FOR BACKGROUND */
-/* .technologyCss {
-  background-image: url(./Image/Technology/css.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 60.4px;
-  height: 85.45px;
-  top: 364.22px;
-  left: 1218.8px;
-  opacity: 1;
-  z-index: 2;
-  position: absolute;
-} */
-
-/* .technologyHtml {
-  background-image: url(./Image/Technology/html.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 88.28px;
-  height: 88.28px;
-  top: 241.81px;
-  left: 1317.61px;
-  opacity: 1;
-  position: absolute;
-} */
-
-/* .technologyJs {
-  background-image: url(./Image/Technology/js.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 61.89px;
-  height: 72.94px;
-  top: 404.2px;
-  left: 1344.16px;
-  opacity: 1;
- 
-  position: absolute;
-} */
-
-/* .technologyText {
-  background-image: url(./Image/Technology/text.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 53.93px;
-  height: 53.93px;
-  top: 498.06px;
-  left: 1221px;
-  opacity: 1;
-  z-index: 2;
-
-  position: absolute;
-} */
-
-/* .technologyVs {
-
-  background-image: url(./Image/Technology/vsc.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 60.62px;
-  height: 60.62px;
-  top: 568.29px;
-  left: 1296px;
-  opacity: 1;
-
-  position: absolute;
-} */
 .mobileOverlay {
   width: 912px;
   height: 912px;
@@ -187,6 +103,7 @@ body {
   border-radius: 50%;
   z-index: -1000;
 }
+
 @media screen and (min-width: 768px) {
   /** BLUR FOR BACKGROUND */
   .blurRight {
@@ -282,6 +199,16 @@ body {
     position: absolute;
   }
   .mobileOverlay {
+    display: none;
+  }
+  .heroContainer {
+    display: flex;
+    gap: 135px;
+    padding-right: 56px;
+    padding-left: 56px;
+    padding-bottom: 27px;
+  }
+  .benefitSection {
     display: none;
   }
 }
