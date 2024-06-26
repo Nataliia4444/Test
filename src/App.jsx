@@ -8,7 +8,6 @@ import Hero from "./components/Hero/Hero";
 function App() {
   return (
     <div>
-      <div className="mobileOverlay"></div>
       <div className="blurRight"></div>
       <div className="blurLeft"></div>
       <div className="technologyCss"></div>
@@ -18,6 +17,7 @@ function App() {
       <div className="technologyVs"></div>
       {/* <div className="overlay"> */}
       <div className="container">
+        <div className="mobileOverlay"></div>
         <Header />
         {/* <Form /> */}
         <Hero />
