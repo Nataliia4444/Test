@@ -1,0 +1,177 @@
+.benefitsSection {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.benefitsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 22px;
+  align-items: center;
+}
+.benefitPresent {
+  display: flex;
+  gap: 16.19px;
+  justify-content: center;
+  align-items: center;
+}
+.benefitTeacher {
+  display: flex;
+  gap: 11px;
+  justify-content: center;
+  align-items: center;
+}
+.benefitsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefitsTitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20.72px;
+  text-align: left;
+}
+.benefitsText {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.76px;
+  text-align: left;
+  max-width: 162px;
+}
+.teacherExperience {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  max-width: 161px;
+}
+.teacherName {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+}
+.teacherLastName {
+  color: #4252d1;
+}
+
+/* Стиль для обычных экранов */
+.teacherImage {
+  width: 51px;
+  height: 49.27px;
+}
+
+/* Медиа-запрос для ретина-устройств */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .teacherImage {
+    content: url(/src/Image/Benefit/teacher@2x.png);
+  }
+}
+.presentImageMob {
+  width: 45.81px;
+  height: 45.81px;
+}
+
+/* Медиа-запрос для ретина-устройств */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .presentImageMob {
+    content: url(/src/Image/Benefit/mobilePresent@2x.png);
+  }
+}
+.presentImageDesk {
+  width: 37.81px;
+  height: 37.81px;
+  display: none;
+}
+
+/* Медиа-запрос для ретина-устройств */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .presentImageDesk {
+    content: url(/src/Image/Benefit/desktPresent@2x.png);
+  }
+}
+/** DESKTOP STYLES */
+
+@media screen and (min-width: 1040px) {
+  .benefitsList {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 22px;
+    align-items: start;
+  }
+  .benefitsText {
+    font-size: 12px;
+    font-weight: 400px;
+  }
+
+  .benefitsSection {
+    padding-top: 58px;
+    padding-bottom: 37px;
+    padding-right: 56px;
+    padding-left: 56px;
+  }
+
+  .benefitsList {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 16px;
+    align-items: start;
+  }
+  .benefitPresent {
+    display: flex;
+    gap: 30.19px;
+    justify-content: center;
+    align-items: center;
+  }
+  .benefitTeacher {
+    display: flex;
+    gap: 16.65px;
+    justify-content: center;
+    align-items: center;
+  }
+  .benefitsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .benefitsTitle {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17.76px;
+    text-align: left;
+  }
+  .benefitsText {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.76px;
+    text-align: left;
+
+    max-width: 210px;
+  }
+  .teacherExperience {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    max-width: 307px;
+  }
+  .teacherName {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.6px;
+    text-align: left;
+  }
+  .teacherLastName {
+    color: #4252d1;
+  }
+  .presentImageMob {
+    display: none;
+  }
+  .presentImageDesk {
+    display: block;
+  }
+}
