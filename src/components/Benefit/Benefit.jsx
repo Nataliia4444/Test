@@ -7,8 +7,8 @@ export default function Benefit() {
         <li className={css.benefitPresent}>
           <img
             className={css.presentImageDesk}
-            src="/src/Image/Benefit/desktPresent.png"
-            srcSet="/src/Image/Benefit/desktPresent.png 1x, /src/Image/Benefit/desktPresent@2x.png 2x"
+            src="/public/Benefit/desktPresent.png"
+            srcSet="/public/Benefit/desktPresent.png 1x, /public/Benefit/desktPresent@2x.png 2x"
             width={37.81}
             height={37.81}
             alt="Бонус за регистрацию"
@@ -16,8 +16,8 @@ export default function Benefit() {
           />
           <img
             className={css.presentImageMob}
-            src="/src/Image/Benefit/mobilePresent.png"
-            srcSet="/src/Image/Benefit/mobilePresent.png 1x, /src/Image/Benefit/mobilePresent@2x.png 2x"
+            src="/public/Benefit/mobilePresent.png"
+            srcSet="/public/Benefit/mobilePresent.png 1x, /public/Benefit/mobilePresent@2x.png 2x"
             width={45.81}
             height={45.81}
             alt="Бонус за регистрацию"
@@ -33,8 +33,8 @@ export default function Benefit() {
         <li className={css.benefitTeacher}>
           <img
             className={css.teacherImage}
-            src="/src/Image/Benefit/teacher.png"
-            srcSet="/src/Image/Benefit/teacher.png 1x, /src/Image/Benefit/teacher@2x.png 2x"
+            src="/public/Benefit/teacher.png"
+            srcSet="/public/Benefit/teacher.png 1x, /public/Benefit/teacher@2x.png 2x"
             // src="/src/Image/Benefit/teacher.png"
             width={51}
             height={49.27}
