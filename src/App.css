@@ -46,7 +46,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     /* width: 1440px; */
-    height: 158.73px;
+    height: 94px;
   }
 
   @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
@@ -108,8 +108,9 @@ body {
     top: 364.22px;
     left: 1218.8px;
     opacity: 1;
-    z-index: 2;
+    /* z-index: 2; */
     position: absolute;
+
     margin-left: 34.8px;
   }
 
@@ -121,7 +122,6 @@ body {
     height: 88.28px;
     top: 241.81px;
     left: 1317.61px;
-    opacity: 1;
     position: absolute;
   }
 
@@ -133,7 +133,6 @@ body {
     height: 72.94px;
     top: 404.2px;
     left: 1344.16px;
-    opacity: 1;
     position: absolute;
   }
 
@@ -145,8 +144,7 @@ body {
     height: 53.93px;
     top: 498.06px;
     left: 1221px;
-    opacity: 1;
-    z-index: 2;
+
     position: absolute;
     margin-left: 37px;
   }
@@ -159,7 +157,7 @@ body {
     height: 60.62px;
     top: 568.29px;
     left: 1296px;
-    opacity: 1;
+
     position: absolute;
   }
   .technologyCssEllipse {
@@ -168,8 +166,7 @@ body {
     height: 6px;
     top: 338.45px;
     left: 1290px;
-    gap: 0px;
-    opacity: 0px;
+
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -180,8 +177,7 @@ body {
     height: 8px;
     top: 260.45px;
     left: 1402px;
-    gap: 0px;
-    opacity: 0px;
+
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -192,8 +188,7 @@ body {
     height: 8px;
     top: 424.45px;
     left: 1410px;
-    gap: 0px;
-    opacity: 0px;
+
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -204,8 +199,7 @@ body {
     height: 6px;
     top: 471px;
     left: 1279px;
-    gap: 0px;
-    opacity: 0px;
+
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -217,8 +211,7 @@ body {
     height: 6px;
     top: 608px;
     left: 1378px;
-    gap: 0px;
-    opacity: 0px;
+
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;

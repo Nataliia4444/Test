@@ -56,41 +56,39 @@ export default function ContactForm({ onSubmit }) {
               Запишитесь <span className={css.formText}>бесплатно</span> и
               получите подарок{" "}
             </p>
-            <Field
-              type="text"
-              placeholder="Ваше имя и фамилия"
-              className={css.formInput}
-              name="username"
-              autoComplete="off"
-            />
-            <ErrorMessage
-              name="username"
-              component="p"
-              className={css.errorMsg}
-            />
-            <PhoneInput
-              placeholder="Ваш номер телефона"
-              value={value}
-              onChange={(value) => {
-                setValue(value);
-                setFieldValue("number", value);
-              }}
-              defaultCountry="UA"
-              className={css.formInputTel}
-            />
-            <ErrorMessage
-              name="number"
-              component="p"
-              className={css.errorMsg}
-            />
-            <Field
-              type="email"
-              placeholder="Ваш email"
-              className={css.formInput}
-              name="email"
-              autoComplete="off"
-            />
-            <ErrorMessage name="email" component="p" className={css.errorMsg} />
+            <div className={css.formInputWrapper}>
+              <Field
+                type="text"
+                placeholder="Ваше имя и фамилия"
+                className={css.formInput}
+                name="username"
+                autoComplete="off"
+              />
+              <ErrorMessage name="username" component="p" />
+            </div>
+            <div className={css.formInputNumberWrapper}>
+              <PhoneInput
+                placeholder="Ваш номер телефона"
+                value={value}
+                onChange={(value) => {
+                  setValue(value);
+                  setFieldValue("number", value);
+                }}
+                defaultCountry="UA"
+                className={css.formInputTel}
+              />
+              <ErrorMessage name="number" component="p" />
+            </div>
+            <div className={css.formInputWrapper}>
+              <Field
+                type="email"
+                placeholder="Ваш email"
+                className={css.formInput}
+                name="email"
+                autoComplete="off"
+              />
+              <ErrorMessage name="email" component="p" />
+            </div>
             <button className={css.formBtn} type="submit" name="submit">
               Записаться бесплатно
             </button>
