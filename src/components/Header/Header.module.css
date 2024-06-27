@@ -1,3 +1,4 @@
+/** HEADER SECTION  */
 .headerSection {
   padding-left: 30px;
   padding-right: 15px;
@@ -16,9 +17,11 @@
 .logoDesktop {
   display: none;
 }
+
 .logoMobile {
   margin-right: auto;
 }
+
 .headerTime {
   background-color: #302e5a;
   color: #ffffff;
@@ -33,6 +36,7 @@
   gap: 5px;
   padding: 6px;
 }
+
 .headerDate {
   background-color: #302e5a;
   color: #ffffff;
@@ -47,8 +51,8 @@
   gap: 5px;
   padding: 6px;
 }
-/** DESKTOP STYLES */
 
+/** DESKTOP STYLES */
 @media screen and (min-width: 1040px) {
   .headerDate,
   .headerTime {

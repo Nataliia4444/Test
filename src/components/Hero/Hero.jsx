@@ -1,7 +1,9 @@
-import Benefit from "../Benefit/Benefit";
+//* IMPORT STYLES
 import css from "./Hero.module.css";
-// import Form from "../Form/Form";
-// import Benefit from "../Benefit/Benefit";
+
+//* IMPOR BENEFIT COMPONENT
+import Benefit from "../Benefit/Benefit";
+
 export default function Hero() {
   return (
     <>

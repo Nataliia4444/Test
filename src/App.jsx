@@ -1,13 +1,16 @@
 //* STYLES CSS
 import "./App.css";
+
+//* IMPORT COMPONENTS
 import Header from "./components/Header/Header";
 import Benefit from "./components/Benefit/Benefit";
 import Form from "./components/Form/Form";
 import Hero from "./components/Hero/Hero";
-//
+
 function App() {
   return (
     <div>
+      {/*BACKGROUND */}
       <div className="blurRight"></div>
       <div className="blurLeft"></div>
       <div className="technologyCss"></div>
@@ -15,11 +18,9 @@ function App() {
       <div className="technologyJs"></div>
       <div className="technologyText"></div>
       <div className="technologyVs"></div>
-
       <div className="container">
         <div className="mobileOverlay"></div>
         <Header />
-        {/* <Form /> */}
         <div className="heroContainer">
           <Hero />
           <Form />
@@ -27,12 +28,9 @@ function App() {
         <div className="benefitSection">
           <Benefit />
         </div>
-
-        {/* <Benefit /> */}
       </div>
       <div className="overlay"></div>
     </div>
-    // </div>
   );
 }
 

@@ -1,6 +1,11 @@
+/** BENEFITS SECTION  */
 .benefitsSection {
   padding-top: 36px;
   padding-bottom: 36px;
+}
+.benefitsContainer {
+  display: flex;
+  flex-direction: column;
 }
 
 .benefitsList {
@@ -21,10 +26,6 @@
   gap: 11px;
   justify-content: center;
   align-items: center;
-}
-.benefitsContainer {
-  display: flex;
-  flex-direction: column;
 }
 
 .benefitsTitle {
@@ -57,13 +58,12 @@
   color: #4252d1;
 }
 
-/* Стиль для обычных экранов */
 .teacherImage {
   width: 51px;
   height: 49.27px;
 }
 
-/* Медиа-запрос для ретина-устройств */
+/** MEDIA REQUESTS FOR RETINA DEVICES */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .teacherImage {
     content: url(/src/Image/Benefit/teacher@2x.png);
@@ -74,7 +74,6 @@
   height: 45.81px;
 }
 
-/* Медиа-запрос для ретина-устройств */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .presentImageMob {
     content: url(/src/Image/Benefit/mobilePresent@2x.png);
@@ -86,14 +85,13 @@
   display: none;
 }
 
-/* Медиа-запрос для ретина-устройств */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .presentImageDesk {
     content: url(/src/Image/Benefit/desktPresent@2x.png);
   }
 }
-/** DESKTOP STYLES */
 
+/** DESKTOP STYLES */
 @media screen and (min-width: 1040px) {
   .benefitsList {
     display: flex;
@@ -109,9 +107,6 @@
 
   .benefitsSection {
     padding-top: 60.59px;
-    /* padding-bottom: 37px;
-    padding-right: 56px;
-    padding-left: 56px;  */
   }
 
   .benefitsList {
@@ -149,7 +144,6 @@
     font-weight: 400;
     line-height: 17.76px;
     text-align: left;
-
     max-width: 210px;
   }
   .teacherExperience {

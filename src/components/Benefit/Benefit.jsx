@@ -1,3 +1,4 @@
+//* IMPORT STYLES
 import css from "./Benefit.module.css";
 
 export default function Benefit() {
@@ -35,7 +36,6 @@ export default function Benefit() {
             className={css.teacherImage}
             src="/public/Benefit/teacher.png"
             srcSet="/public/Benefit/teacher.png 1x, /public/Benefit/teacher@2x.png 2x"
-            // src="/src/Image/Benefit/teacher.png"
             width={51}
             height={49.27}
             alt="Кирилл КАСАТОНОВ"

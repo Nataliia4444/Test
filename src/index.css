@@ -5,17 +5,11 @@
 }
 
 :root {
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   font-family: "Gilroy-Bold", sans-serif;
   font-family: "Gilroy-Heavy", sans-serif;
   font-family: "Gilroy-Light", sans-serif;
   font-family: "Gilroy-Medium", sans-serif;
   font-family: "Gilroy-Regular", sans-serif;
-  /* font-family: "Gilroy-Extra", sans-serif; */
-  /* font-family: "Gilroy-Semibold", sans-serif; */
-
-  line-height: 1.5;
-  /* font-weight: 400; */
   background-color: #242731;
   color: #ffffff;
 }
