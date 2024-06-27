@@ -66,7 +66,7 @@
 /** MEDIA REQUESTS FOR RETINA DEVICES */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .teacherImage {
-    content: url(/src/Image/Benefit/teacher@2x.png);
+    content: url(/Benefit/teacher@2x.png);
   }
 }
 .presentImageMob {
@@ -76,7 +76,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .presentImageMob {
-    content: url(/src/Image/Benefit/mobilePresent@2x.png);
+    content: url(/Benefit/mobilePresent@2x.png);
   }
 }
 .presentImageDesk {
@@ -87,7 +87,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .presentImageDesk {
-    content: url(/src/Image/Benefit/desktPresent@2x.png);
+    content: url(/Benefit/desktPresent@2x.png);
   }
 }
 
