@@ -127,6 +127,15 @@
   color: #d5b96a;
   left: 10px;
 }
+/** TABLET STYLES */
+@media only screen and (min-width: 768px) {
+  .formSection {
+    display: flex;
+    justify-content: center;
+    padding-top: 92px;
+  }
+}
+
 /** DESKTOP STYLES */
 @media screen and (min-width: 1040px) {
   .form {
@@ -195,7 +204,7 @@
     padding-top: 92px;
   }
 }
-.formInputTel {
+.formNumber {
   background-color: #272d3d;
   width: 100%;
   height: 51px;
@@ -208,7 +217,7 @@
   font-weight: 400;
   color: #d7d7d7;
 }
-.formInputTel > input {
+.formNumber > input {
   background-color: #272d3d;
   border: none;
   height: 51px;
@@ -219,28 +228,26 @@
   font-weight: 400;
   color: #d7d7d7;
 }
-.formInputTel > input::placeholder {
+.formNumber > input::placeholder {
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
   color: #d7d7d7;
   font-family: "Gilroy-Regular", sans-serif;
 }
-.formInputTel > input:focus {
+.formNumber > input:focus {
   border: none;
   outline: none;
 }
-.formInput:focus {
+.formNumber:focus {
   outline: none;
 }
 
 .formNumberWrapper {
   display: flex;
-  /* width: 286px; */
   height: 46px;
   border-radius: 4.48px;
   background-color: #272d3d;
-  /* padding: 12px 26.29px; */
   border: none;
   margin-bottom: 14px;
   font-size: 12px;

@@ -6,64 +6,33 @@ import Header from "./components/Header/Header";
 import Benefit from "./components/Benefit/Benefit";
 import Form from "./components/ContactForm/ContactForm";
 import Hero from "./components/Hero/Hero";
-// import TelegramForm from "./components/API/sendMessageToTelegram";
 
-// import axios from "axios";
-
+//* IMPORT NOTICATION FROM REACT TOAST
 import { ToastContainer } from "react-toastify";
+
+//* IMPORT FUNCTION SENT MESSAGE TO TELEGRAM
 import sendMessageToTelegram from "./components/API/sendMessageToTelegram";
-// import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-  // const sendMessageToTelegram = async (data) => {
-  //   const token = "7030272361:AAGcTfuLbzyC9OFoWqC1S1wK-XfCJ0OtlFg";
-  //   const chatId = "-4234129827";
-  //   const url = `https://api.telegram.org/bot${token}/sendMessage`;
-  //   const message = `
-  //     Ім'я: ${data.username}
-  //     Номер телефону: ${data.number}
-  //     Email: ${data.email}
-  //   `;
-
-  //   try {
-  //     const response = await axios.post(url, {
-  //       chat_id: chatId,
-  //       text: message,
-  //     });
-
-  //     if (response.data.ok) {
-  //       toast.success("Message sent!", {
-  //         position: "top-right",
-  //       });
-  //     } else {
-  //       toast.error("Failed to send message.", {
-  //         position: "top-right",
-  //       });
-  //     }
-  //   } catch (error) {
-  //     console.error("Error sending message:", error);
-  //     toast.error("Failed to send message.", {
-  //       position: "top-right",
-  //     });
-  //   }
-  // };
-
   return (
     <div>
-      {/*BACKGROUND */}
+      {/* BACKGROUND BLUR */}
       <div className="blurRight"></div>
       <div className="blurLeft"></div>
+
+      {/* BACKGROUND TECHNOLOGY */}
       <div className="technologyCss"></div>
       <div className="technologyHtml"></div>
       <div className="technologyJs"></div>
       <div className="technologyText"></div>
       <div className="technologyVs"></div>
-
       <div className="technologyCssEllipse"></div>
       <div className="technologyHtmlEllipse"></div>
       <div className="technologyJsEllipse"></div>
       <div className="technologyTextEllipse"></div>
       <div className="technologyVsEllipse"></div>
+
+      {/* CONTAINER */}
       <div className="container">
         <div className="mobileOverlay"></div>
         <Header />
@@ -75,8 +44,11 @@ function App() {
           <Benefit />
         </div>
       </div>
+
+      {/* OVERLAY FRONT-END DEVELOPER */}
       <div className="overlay"></div>
-      {/* <TelegramForm /> */}
+
+      {/* NOTICATION */}
       <ToastContainer />
     </div>
   );

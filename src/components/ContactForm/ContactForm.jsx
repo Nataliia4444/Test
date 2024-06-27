@@ -21,13 +21,15 @@ import { useState } from "react";
 //* VALIDATION SCHEME WITH YUP
 const FeedbackSchema = Yup.object().shape({
   username: Yup.string()
-    .min(3, "Too Short!")
-    .max(50, "Too Long!")
-    .required("Required"),
-  email: Yup.string().email("Invalid email").required("Required"),
+    .min(3, "Коротке ім'я")
+    .max(50, "Довге ім'я")
+    .required("Обов'язкове поле"),
+  email: Yup.string()
+    .email("Недійсна електронна адреса")
+    .required("Обов'язкове поле"),
   number: Yup.string()
-    .required("Required")
-    .test("valid-number", "Invalid phone number", (value) =>
+    .required("Обов'язкове поле")
+    .test("valid-number", "Недійсний номер телефону", (value) =>
       isValidPhoneNumber(value)
     ),
 });
@@ -75,7 +77,7 @@ export default function ContactForm({ onSubmit }) {
                   setFieldValue("number", value);
                 }}
                 defaultCountry="UA"
-                className={css.formInputTel}
+                className={css.formNumber}
               />
               <ErrorMessage name="number" component="p" />
             </div>

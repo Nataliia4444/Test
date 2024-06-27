@@ -45,7 +45,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    /* width: 1440px; */
     height: 94px;
   }
 
@@ -108,9 +107,7 @@ body {
     top: 364.22px;
     left: 1218.8px;
     opacity: 1;
-    /* z-index: 2; */
     position: absolute;
-
     margin-left: 34.8px;
   }
 
@@ -144,7 +141,6 @@ body {
     height: 53.93px;
     top: 498.06px;
     left: 1221px;
-
     position: absolute;
     margin-left: 37px;
   }
@@ -157,7 +153,6 @@ body {
     height: 60.62px;
     top: 568.29px;
     left: 1296px;
-
     position: absolute;
   }
   .technologyCssEllipse {
@@ -166,7 +161,6 @@ body {
     height: 6px;
     top: 338.45px;
     left: 1290px;
-
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -177,7 +171,6 @@ body {
     height: 8px;
     top: 260.45px;
     left: 1402px;
-
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -188,7 +181,6 @@ body {
     height: 8px;
     top: 424.45px;
     left: 1410px;
-
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -199,7 +191,6 @@ body {
     height: 6px;
     top: 471px;
     left: 1279px;
-
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -211,7 +202,6 @@ body {
     height: 6px;
     top: 608px;
     left: 1378px;
-
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -223,13 +213,20 @@ body {
 
   .heroContainer {
     display: flex;
-    gap: 135px;
-
-    padding-right: 56px;
-    padding-left: 56px;
     padding-bottom: 27px;
   }
   .benefitSection {
     display: none;
+  }
+}
+
+/** DESKTOP STYLES */
+@media screen and (min-width: 1152px) {
+  .heroContainer {
+    display: flex;
+    gap: 135px;
+    padding-right: 56px;
+    padding-left: 56px;
+    padding-bottom: 27px;
   }
 }
