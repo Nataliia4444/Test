@@ -32,11 +32,12 @@ const FeedbackSchema = Yup.object().shape({
     ),
 });
 
-export default function ContactForm() {
+export default function ContactForm({ onSubmit }) {
   const [value, setValue] = useState();
 
   const handleSubmit = (data, formActions) => {
     console.log(data, "data");
+    onSubmit(data);
     formActions.resetForm();
     //* RESET THE PHONEINPUT VALUE
     setValue("");
