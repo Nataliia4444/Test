@@ -4,7 +4,7 @@ import "./App.css";
 //* IMPORT COMPONENTS
 import Header from "./components/Header/Header";
 import Benefit from "./components/Benefit/Benefit";
-import Form from "./components/Form/Form";
+import Form from "./components/ContactForm/ContactForm";
 import Hero from "./components/Hero/Hero";
 
 function App() {

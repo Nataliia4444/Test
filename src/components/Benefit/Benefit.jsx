@@ -8,8 +8,8 @@ export default function Benefit() {
         <li className={css.benefitPresent}>
           <img
             className={css.presentImageDesk}
-            src="/public/Benefit/desktPresent.png"
-            srcSet="/public/Benefit/desktPresent.png 1x, /public/Benefit/desktPresent@2x.png 2x"
+            src="/Benefit/desktPresent.png"
+            srcSet="/Benefit/desktPresent.png 1x, /Benefit/desktPresent@2x.png 2x"
             width={37.81}
             height={37.81}
             alt="Бонус за регистрацию"
@@ -17,8 +17,8 @@ export default function Benefit() {
           />
           <img
             className={css.presentImageMob}
-            src="/public/Benefit/mobilePresent.png"
-            srcSet="/public/Benefit/mobilePresent.png 1x, /public/Benefit/mobilePresent@2x.png 2x"
+            src="/Benefit/mobilePresent.png"
+            srcSet="/Benefit/mobilePresent.png 1x, /Benefit/mobilePresent@2x.png 2x"
             width={45.81}
             height={45.81}
             alt="Бонус за регистрацию"
@@ -34,8 +34,8 @@ export default function Benefit() {
         <li className={css.benefitTeacher}>
           <img
             className={css.teacherImage}
-            src="/public/Benefit/teacher.png"
-            srcSet="/public/Benefit/teacher.png 1x, /public/Benefit/teacher@2x.png 2x"
+            src="/Benefit/teacher.png"
+            srcSet="/Benefit/teacher.png 1x, /Benefit/teacher@2x.png 2x"
             width={51}
             height={49.27}
             alt="Кирилл КАСАТОНОВ"
