@@ -58,6 +58,12 @@ function App() {
       <div className="technologyJs"></div>
       <div className="technologyText"></div>
       <div className="technologyVs"></div>
+
+      <div className="technologyCssEllipse"></div>
+      <div className="technologyHtmlEllipse"></div>
+      <div className="technologyJsEllipse"></div>
+      <div className="technologyTextEllipse"></div>
+      <div className="technologyVsEllipse"></div>
       <div className="container">
         <div className="mobileOverlay"></div>
         <Header />
