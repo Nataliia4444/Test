@@ -81,6 +81,17 @@
   display: none;
 }
 
+.heroTextContainer {
+  width: 76.26px;
+  height: 27.53px;
+  border-radius: 3.57px;
+  transform: rotate(-3.49deg);
+  background-color: #ff3459;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /** DESKTOP STYLES */
 @media screen and (min-width: 1040px) {
   .heroSection {

@@ -224,6 +224,7 @@ body {
   .heroContainer {
     display: flex;
     gap: 135px;
+
     padding-right: 56px;
     padding-left: 56px;
     padding-bottom: 27px;
