@@ -5,16 +5,16 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-//*  FUNCTION SENT MESSAGE TO TELEGRAM
+// * FUNCTION SENT MESSAGE TO TELEGRAM
 export default async function sendMessageToTelegram(data) {
   const token = "7030272361:AAGcTfuLbzyC9OFoWqC1S1wK-XfCJ0OtlFg";
-  const chatId = "-4234129827";
+  const chatId = "944014556";
   const url = `https://api.telegram.org/bot${token}/sendMessage`;
-  const message = `
-    Ім'я: ${data.username}
-    Номер телефону: ${data.number}
-    Email: ${data.email}
-  `;
+  const message = {
+    "Ім'я": `${data.username}`,
+    "Номер телефону": `${data.number}`,
+    Email: `${data.email}`,
+  };
 
   try {
     const response = await axios.post(url, {
